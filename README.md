@@ -57,6 +57,10 @@ Essa aplicação serve para mostrar como usar SSE para comunicação em tempo re
 - Abra múltiplas abas para ver os círculos dos outros players se movimentando ao vivo.
 - Teste alterar seu nome e veja a atualização instantânea em todas as abas.
 - Feche a aba para remover seu player do servidor e das outras abas.
+- Gere a Build para eliminar delays
+  ```bash
+  pnpm build
+  pnpm start
 
 ---
 
