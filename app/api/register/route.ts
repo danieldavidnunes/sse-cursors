@@ -1,5 +1,5 @@
 import { registerPlayer } from '@/lib/players';
-import { broadcast } from '../stream/route';
+import { broadcast } from '@/lib/broadcast';
 
 export async function POST(req: Request) {
   const { id, name, color } = await req.json();

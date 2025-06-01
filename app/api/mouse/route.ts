@@ -1,5 +1,5 @@
 import { updateMouse } from '@/lib/players';
-import { broadcast } from '../stream/route';
+import { broadcast } from '@/lib/broadcast';
 
 export async function POST(req: Request) {
   const { id, x, y } = await req.json();
