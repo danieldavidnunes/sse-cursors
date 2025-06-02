@@ -28,8 +28,7 @@ Essa aplicação serve para mostrar como usar SSE para comunicação em tempo re
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repo.git
-   cd seu-repo
+   git clone https://github.com/danieldavidnunes/sse-cursors.git
 
 2. Instale as dependências usando pnpm:
    ```bash
