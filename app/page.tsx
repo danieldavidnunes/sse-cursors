@@ -92,10 +92,10 @@ export default function Home() {
             if (!started && name.trim()) {
               id.current = uuid();
               color.current = getRandomColor();
-              await registerPlayer(name, id.current, color.current);
+              await registerPlayer(name.slice(0,20), id.current, color.current);
               setStarted(true);
             } else if (started && name.trim()) {
-              await registerPlayer(name, id.current, color.current); // altera nome
+              await registerPlayer(name.slice(0,20), id.current, color.current); // altera nome
             }
           }}
         >
